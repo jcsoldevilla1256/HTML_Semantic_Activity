@@ -28,7 +28,7 @@
         <a href="#">Home</a> <br>
         <a href="#spots">Spots</a> <br>
         <a href="#about">About</a> <br>
-        <a href="#">Contact</a>
+        <a href="#contact">Contact</a>
     </nav> <br>
     
     <main>
@@ -75,15 +75,38 @@
 
     <!-- start of about section  -->
     <section id="about">
-        <h1>About</h1>
+        <h2>About</h2>
         <img src="./img/20231230_2114132.gif" alt="">
         <img src="./img/Green Yellow Modern Travel and Tour Logo _20231230_212344_0000.svg" alt="Logo" id="logo"> <br>
 
-        <span>phone: <i>09123-456-789</i></span> &ensp; &ensp; &ensp; &ensp;
-        <span>email: <i>t-tour@gmail.com</i></span>
         <p>T-Tour is a website dedicated to promote Tarlac, Philippine destinations. Website visitors will see the wonderful places to travel in Tarlac City and Tarlac Province. Spots includes cafes, nature trips, recreational park, and many places where you can chill and relax. Enjoy exploring!
-    </section>
+    </section> <br>
     <!-- end of about section  -->
+
+    <!-- start of contact section  -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>We are happy to know your toughts.</p>
+        <form>
+            <div>
+            <label for="fullname"><strong>Full Name:</strong> </label>
+            <input id="fullname" type="text" placeholder="Juan C. Dela Cruz" required>
+            </div>
+    
+            <div>
+                <label for="email"><strong>Email:</strong> </label>
+                <input id="email" type="email" placeholder="juandelacruz@email.com" required>
+            </div> <br>
+    
+            <div>
+                <label for="message"><strong>Message:</strong> </label> <br>
+                <textarea id="message" cols="30" rows="10" placeholder="Write something.."></textarea>
+            </div>
+    
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <!-- end of contact section  -->
     </main>
 </body>
 </html>
